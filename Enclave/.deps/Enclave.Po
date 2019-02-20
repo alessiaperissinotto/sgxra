@@ -1,0 +1,86 @@
+Enclave.o: Enclave.cpp ../config.h Enclave_t.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdint.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/stdint.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/cdefs.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/_types.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/wchar.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stddef.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_edger8r.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_defs.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_error.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_eid.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_trts.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_utils.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_attributes.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_key.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_report.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tkey_exchange.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_key_exchange.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_quote.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_ecp_types.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tcrypto.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdlib.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tae_service.h \
+ ../config.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/string.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tae_service.h \
+ /home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tcrypto.h
+
+../config.h:
+
+Enclave_t.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdint.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/stdint.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/cdefs.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/sys/_types.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/wchar.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stddef.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_edger8r.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_defs.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_error.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_eid.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_trts.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_utils.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_attributes.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_key.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_report.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tkey_exchange.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_key_exchange.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_quote.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_ecp_types.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tcrypto.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/stdlib.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tae_service.h:
+
+../config.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/tlibc/string.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tae_service.h:
+
+/home/alex/sgx-step/linux-sgx/linux/installer/bin/sgxsdk/include/sgx_tcrypto.h:
